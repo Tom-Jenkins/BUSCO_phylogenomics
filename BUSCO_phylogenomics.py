@@ -314,7 +314,7 @@ def main():
         chdir(working_directory)
 
         for busco in buscos:
-            if len(buscos[busco]) >= 4:
+            if len(buscos[busco]) >= 8:
                 single_copy_buscos_4_species.append(busco)
                 # print(busco, len(buscos[busco]))
 
